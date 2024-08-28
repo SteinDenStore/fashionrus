@@ -1,4 +1,7 @@
 * {
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: beige;
+}
+header {
+  font-size: 10rem;
 }
