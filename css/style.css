@@ -3,5 +3,26 @@
   background-color: beige;
 }
 header {
-  font-size: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  color: inherit;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 5rem;
+}
+.categorylist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+.categorylist a {
+  text-decoration: none;
+  padding: 2em;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
 }
