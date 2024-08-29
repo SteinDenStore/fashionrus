@@ -1,0 +1,10 @@
+.grid_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  justify-content: space-between;
+}
+.img_controle {
+  justify-content: center;
+  max-width: 100%;
+}
